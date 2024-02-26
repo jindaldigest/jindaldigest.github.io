@@ -26,6 +26,7 @@ github_username:  jekyll
 header_pages:
   - contact.md
   - about.md
+future: true
 # Build settings
 markdown: kramdown
 #removed minima theme as it is a regular theme
