@@ -26,6 +26,7 @@ github_username:  jekyll
 header_pages:
   - contact.md
   - about.md
+  - news-reels.md
 future: true
 # Build settings
 markdown: kramdown
