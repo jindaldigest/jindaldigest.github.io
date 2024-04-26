@@ -4,6 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   2024-02-04 14:02:11 +0000
 categories: [Crypto, Personal]
 ---
+<iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1E4AnYVmEEo8ws" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.

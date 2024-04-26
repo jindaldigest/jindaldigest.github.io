@@ -7,9 +7,16 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
+  <!-- {{ content }}
+    {%- for post in site.posts -%}
+      {%- for category in post.categories -%}
+        {%- assign lowercase_categories = category| downcase -%}
+        <li>
+        {{ lowercase_categories }}
+        </li>
+      {%- endfor -%}
+    {%- endfor -%}
+  {%- if site.posts.size > 0 -%} -->
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
