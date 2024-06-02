@@ -38,6 +38,9 @@ layout: default
           <h3>Similar Posts</h3>
           <ul>
             {% for category in page.categories %}
+              {%- if category == "blogs" or category == "editors" or category == "contributors" -%}
+                {%- continue -%}
+              {%- endif -%}
               {%- for post in site.posts -%}
                 {%- if post.categories contains category -%}
                   <li><span><a  href="{{ post.url | relative_url }}">{{ post.title }}</a></span></li>
@@ -49,7 +52,10 @@ layout: default
           <h3>Categories</h3>
           <ul>
             {% for category in page.categories %}
-              <li>{{ category }}</li>
+              {%- if category == "blogs" or category == "editors" or category == "contributors" -%}
+                {%- continue -%}
+              {%- endif -%}
+              <li class="text-uppercase">{{ category | split: "-" | join: " " }}</li>
             {% endfor %}
           </ul>
         </div>

@@ -1,1 +1,0 @@
-# jindaldigest.github.io

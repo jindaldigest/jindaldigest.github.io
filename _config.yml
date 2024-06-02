@@ -14,19 +14,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jindal Digest for Competition and Innovation Laws
-email: your-email@example.com
+author: organization
+
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  JDCIL is a student run, peer reviewed blog, tracing developments in Competition and Technology Law and Policy.
+
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://jindaldigest.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-header_pages:
-  - contact.md
-  - about.md
-  - news-reels.md
+
+linkedin_username: jindal-digest-for-competition-and-innovation-laws
+
+# header_pages:
+#   - home.md
+#   - about-us.md
+#   - blogs.md
+#     - from-our-contributors
+#     - from-our-editors
+#   - contact-us.md
+#   - news-reels.md
+
 future: true
 # Build settings
 markdown: kramdown
@@ -34,6 +40,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+copyright: JDCIL LLC
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -46,3 +54,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# custom config

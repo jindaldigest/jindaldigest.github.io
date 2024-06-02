@@ -3,6 +3,7 @@ layout: post
 title:  "The Legal Saga of Breaking End-to-End Encryption in India – Constitutional or Unconstitutional?"
 date:   2023-02-21 10:00:00 +0000
 categories: [Tech, Personal]
+image: https://unsplash.it/1200/800?image=1059
 ---
 # I. Introduction: Decoding Encryption and its Significance
 Encryption, or its lesser-known name, the ancient art of cryptography, is the conversion of plaintext data into an unintelligible form, in a manner that the original data, without the application of an inverse decryption process, is impossible to recover.  With the 1990’s internet boom came the need of securing online communications and transactions, which had multiplied by millions. Encryption is precisely what fulfilled this need, and is now omnipresent in every aspect of our life, from the mobile phones in our pockets to the banks where our money is deposited. It plays a significant role in our day-to-day life and carries out numerous important functions such as ensuring sender and recipient anonymity, participation anonymity, authenticity of messages, etc. Hence, the existence of encryption is indispensable for the existence of maintaining citizens’ right to privacy in the online world.
