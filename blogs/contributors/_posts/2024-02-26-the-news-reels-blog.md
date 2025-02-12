@@ -3,7 +3,7 @@ layout: post
 title:  "The News Reels Blog!"
 date:   2024-02-26 11:17:11 +0000
 categories: [tech, news-reels]
-featured: true
+featured: false
 image: https://unsplash.it/1200/800?image=1065
 
 ---
