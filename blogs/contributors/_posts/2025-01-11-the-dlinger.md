@@ -3,7 +3,7 @@ layout: post
 title:  "The Dlinger"
 date:   2025-01-11 17:48:00 +0000
 categories: [Tech, Personal]
-featured: false
+featured: true
 image: https://unsplash.it/1200/800?image=1060
 ---
 # Dillinger
