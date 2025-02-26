@@ -5,6 +5,7 @@ date:   2024-02-26 11:17:11 +0000
 categories: [Tech, Personal]
 featured: true
 image: https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22screenshot_1740561526632.png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222028-02-26T09%3A18%3A47.884Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F7d8b50608b0342bd%2Fscreenshot_1740561526632.png%3FExpires%3D1835169528%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DmKa1xm4WJZghxKiCWMDXzbmDPaDxlfdEdR9MQKbtL7k0GJgl2kWFtBtCgNllrhBmFENqzmMJEzE8pn9nOaJ~Xbopa35ngmWyBKTJY9Fs~RPAs-p4SCgG62bnYMqQC2~aG8nh~laXCdWVZMPTTXBf0TjtaGcJG25MIQvHpPScQHkOl9BKBP3AvDJcFz0gIGW3iWdva078ZoSJ0TCARcgH-vHG9WxIafb-xCBhPN0fLVlwQnIWXRLQIWWYmJNUUeT0DBvnXcOxWjZS4-IushILA-sjWiXKxEGwJhdtt7Cn-AnbJofQNObw--6uEMtJE95U2755yZMPuEM7revvT5nCHw__%22%7D 
+
 ---
 [**Reserve Bank of India\'s Clarifications to Data Localisation Order:
 Addressing Controversies and
