@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "The Need For A Sustainable Competition Policy"
+date:   2024-02-26 11:17:11 +0000
+categories: [Tech, Personal]
+featured: true
+image: https://pin.it/3PLLj86Sx 
+
+---
 [**THE NEED FOR A SUSTAINABLE COMPETITION
 POLICY**](https://web.archive.org/web/20230606074937/https:/jindaldigest.weebly.com/blog-781581/the-need-for-a-sustainable-competition-policy)
 
