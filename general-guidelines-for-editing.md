@@ -1,3 +1,9 @@
+---
+layout: page
+title: Guidelines
+permalink: /guidelines
+---
+
 **Guidelines:**
 
 1) Subject matter: Competition Law, Technology Law, and Intellectual Property Rights.
