@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "The Legal Saga of Breaking End-to-End Encryption in India – Constitutional or Unconstitutional?"
-date:   2023-02-21 10:00:00 +0000
+title:  "Demo Document"
+date:   2025-03-08 11:55:00 +0000
 categories: [Tech, Personal]
 image: https://unsplash.it/1200/800?image=1059
 ---
