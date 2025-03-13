@@ -21,10 +21,9 @@ layout: default
 
           <div class="post-content e-content" itemprop="articleBody">
             {{ content }}
-            
           </div>
 
-          {%- if site.disqus.shortname -%}
+          {%- if site.disqus.shorxtname -%}
             {%- include disqus_comments.html -%}
           {%- endif -%}
 
@@ -34,29 +33,115 @@ layout: default
     </div>
     <div class="col-lg-3">
       <div class="column-content"></div>
+        <style>
+          .sidebar{
+            margin-top: 0px;
+          }
+          @media (min-width: 992px) {
+            .sidebar {
+              position: sticky;
+              margin-top: 50px;
+              top: 50px;
+              max-height: calc(100vh - 40px);
+              overflow-y: auto;
+              scrollbar-width: thin;
+              scrollbar-color: #888 #f1f1f1;
+            }
+            .sidebar::-webkit-scrollbar {
+              width: 6px;
+            }
+            .sidebar::-webkit-scrollbar-track {
+              background: #f1f1f1;
+              border-radius: 3px;
+            }
+            .sidebar::-webkit-scrollbar-thumb {
+              background: #888;
+              border-radius: 3px;
+            }
+            .sidebar::-webkit-scrollbar-thumb:hover {
+              background: #555;
+            }
+          }
+          @media (max-width: 991px) {
+            .sidebar {
+              margin-top: 30px;
+              margin-bottom: 30px;
+            }
+          }
+        </style>
         <div class="sidebar">
-          <h3>Similar Posts</h3>
-          <ul>
-            {% for category in page.categories %}
-              {%- if category == "blogs" or category == "editors" or category == "contributors" -%}
-                {%- continue -%}
-              {%- endif -%}
-              {%- for post in site.posts -%}
-                {%- if post.categories contains category -%}
-                  <li><span><a  href="{{ post.url | relative_url }}">{{ post.title }}</a></span></li>
-                  {%- break -%}
-                {%- endif -%}
-              {%- endfor -%}
-            {% endfor %}
-          </ul>
+          <style>
+            .similar-post-title {
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: block;
+              max-width: 100%;
+              position: relative;
+              transition: max-width 0.3s ease-in-out;
+            }
+            .similar-post-title:hover {
+              white-space: normal;
+              overflow: visible;
+              max-width: none;
+            }
+            .similar-posts-list {
+              list-style: none;
+              padding-left: 0;
+            }
+            .similar-posts-list li {
+              margin-bottom: 10px;
+            }
+          </style>
           <h3>Categories</h3>
           <ul>
             {% for category in page.categories %}
-              {%- if category == "blogs" or category == "editors" or category == "contributors" -%}
-                {%- continue -%}
-              {%- endif -%}
-              <li class="text-uppercase">{{ category | split: "-" | join: " " }}</li>
+              {% unless category == "blogs" or category == "editors" or category == "contributors" %}
+                <li class="text-uppercase">{{ category | split: "-" | join: " " }}</li>
+              {% endunless %}
             {% endfor %}
+          </ul>
+          <h3>Similar Posts</h3>
+          <ul class="similar-posts-list">
+            {% assign similar_posts = site.posts | where_exp: "post", "post.url != page.url" %}
+            {% assign matching_posts = "" | split: "" %}
+
+            {% for post in similar_posts %}
+              {% assign category_match_count = 0 %}
+              {% for category in page.categories %}
+                {% unless category == "blogs" or category == "editors" or category == "contributors" %}
+                  {% if post.categories contains category %}
+                    {% assign category_match_count = category_match_count | plus: 1 %}
+                  {% endif %}
+                {% endunless %}
+              {% endfor %}
+              
+              {% if category_match_count > 0 %}
+                {% capture post_with_count %}{{ category_match_count }}|{{ post.date | date: "%Y-%m-%d" }}|{{ post.url }}|{{ post.title }}{% endcapture %}
+                {% assign matching_posts = matching_posts | push: post_with_count %}
+              {% endif %}
+            {% endfor %}
+
+            {% assign sorted_posts = matching_posts | sort | reverse %}
+            {% assign displayed_count = 0 %}
+            {% for post_info in sorted_posts %}
+              {% if displayed_count < 10 %}
+                {% assign post_parts = post_info | split: "|" %}
+                <li>
+                  <div class="similar-post-title">
+                    <a href="{{ post_parts[2] | relative_url }}">{{ post_parts[3] }}</a>
+                  </div>
+                  <small class="text-muted">
+                    • {{ post_parts[1] | date: "%b %-d, %Y" }}
+                  </small>
+                </li>
+                {% assign displayed_count = displayed_count | plus: 1 %}
+              {% endif %}
+            {% endfor %}
+            
+            {% if displayed_count == 0 %}
+              <li><em>No similar posts found</em></li>
+            {% endif %}
           </ul>
         </div>
       </div>  

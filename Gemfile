@@ -11,8 +11,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.9.3"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-#removed minima theme as it is a regular theme
-gem "minima", "~> 2.0"
+gem "minima", "~> 2.5.1"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -20,7 +19,24 @@ gem "minima", "~> 2.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  # SEO and content optimization plugins
+  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-seo-tag", "~> 2.8"
+  gem "jekyll-sitemap", "~> 1.4"
+  gem "jekyll-paginate", "~> 1.1"
+  gem "jekyll-include-cache", "~> 0.2"
+  
+  # Content enhancement plugins
+  gem "jemoji", "~> 0.12"
+  gem "jekyll-avatar", "~> 0.7"
+  gem "jekyll-remote-theme", "~> 0.4"
+  gem "jekyll-relative-links", "~> 0.6"
+  gem "jekyll-readme-index", "~> 0.3"
+  gem "jekyll-default-layout", "~> 0.1"
+  gem "jekyll-optional-front-matter", "~> 0.3"
+  gem "jekyll-titles-from-headings", "~> 0.5"
+  gem "jekyll-redirect-from", "~> 0.16"
+  gem "jekyll-remote-include", "~> 1.0.2"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

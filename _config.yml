@@ -14,46 +14,97 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jindal Digest for Competition and Innovation Laws
-author: organization
-
-description: >- # this means to ignore newlines until "baseurl:"
+email: jindaldigest@gmail.com
+description: >- 
   JDCIL is a student run, peer reviewed blog, tracing developments in Competition and Technology Law and Policy.
 
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://jindaldigest.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+keywords: Jindal Digest,legal blog, law articles, legal analysis, constitutional law, technology law, India law, legal insights, competition law, innovation law, legal commentary, legal education, law students, legal professionals, legal research, legal writing
 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jindaldigest.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: jindaldigest
 linkedin_username: jindal-digest-for-competition-and-innovation-laws
 
-# header_pages:
-#   - home.md
-#   - about-us.md
-#   - blogs.md
-#     - from-our-contributors
-#     - from-our-editors
-#   - contact-us.md
-#   - news-reels.md
+
+header_pages:
+  - home.md
+  - general-guidelines-for-editing.md
+  - blogs.md
+    - from-our-contributors
+    - from-our-editors
+  - news-reels.md
+  - about-us.md
+  - contact-us.md
 
 future: true
+
 # Build settings
 markdown: kramdown
-#removed minima theme as it is a regular theme
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-copyright: JDCIL LLC
+# SEO Settings
+author:
+  name: Jindal Digest
+  email: jindaldigest@gmail.com
+  twitter: jindaldigest
+  github: jindaldigest
+  linkedin: jindaldigest
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Site Settings
+permalink: /:year/:month/:day/:title/
 
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git/
+
+# Sitemap Settings
+sitemap:
+  changefreq: daily
+  priority: 0.7
+  exclude:
+    - /404.html
+    - /assets/
+    - /admin/
+    - /private/
+
+# Google Analytics
+google_analytics: UA-XXXXXXXXX-X # Replace with your Google Analytics ID
+
+# Social Media
+social:
+  twitter: https://twitter.com/jindaldigest
+  github: https://github.com/jindaldigest
+  linkedin: https://linkedin.com/in/jindaldigest
+
+# Site Structure
+collections:
+  contributors:
+    output: true
+    permalink: /blogs/contributors/:title/
+  editors:
+    output: true
+    permalink: /blogs/editors/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      author: "Jindal Digest"
+      categories: []
+      tags: []
+      image: /assets/default-post-image.jpg
+      description: "Read our latest legal insights and analysis from expert contributors."
 
 # custom config
