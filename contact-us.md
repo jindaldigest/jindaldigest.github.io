@@ -4,8 +4,6 @@ title: Contact Us
 permalink: /contact
 ---
 
-# Contact Jindal Digest
-
 We welcome your questions, suggestions, and collaboration opportunities. Here are the various ways you can reach us:
 
 ### Email

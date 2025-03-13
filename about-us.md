@@ -4,8 +4,6 @@ title: About Us
 permalink: /about
 ---
 
-# About Jindal Digest for Competition and Innovation Laws
-
 The Jindal Digest for Competition and Innovation Laws (JDCIL) is a student-edited, interdisciplinary legal blog that serves as a platform for in-depth analysis and discussion of contemporary developments in antitrust, intellectual property, and technology law. Our mission is to bridge the gap between academic research and practical legal developments in these dynamic fields.
 
 ## Our Vision
