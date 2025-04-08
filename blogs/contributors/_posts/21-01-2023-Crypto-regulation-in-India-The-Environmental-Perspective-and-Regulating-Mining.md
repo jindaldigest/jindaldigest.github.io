@@ -1,9 +1,9 @@
-
+----
 layout: post
 21/1/2023
 categories: [Tech, Personal]
 image: https://www.vecteezy.com/photo/7950584-concept-save-the-world-save-environment-the-world-is-in-the-grass-of-the-green-bokeh-background
-
+-----
 
 **By Bhaskar Vishwajeet & Karan Kaul**
 
