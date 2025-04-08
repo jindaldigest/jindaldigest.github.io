@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "The Need For A Sustainable Competition Policy"
+date:   2023-02-21 11:17:11 +0000
+categories: [Tech, Personal]
+featured: true
+image: https://pin.it/3PLLj86Sx 
+
+---
 ﻿[**The Legal Saga of Breaking End-to-End Encryption in India – Constitutional or Unconstitutional?**](https://web.archive.org/web/20230319090840/https:/jindaldigest.weebly.com/blog-781581/the-legal-saga-of-breaking-end-to-end-encryption-in-india-constitutional-or-unconstitutional)
 
 
