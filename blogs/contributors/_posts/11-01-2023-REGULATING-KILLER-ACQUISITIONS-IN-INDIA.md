@@ -1,7 +1,12 @@
-﻿[**REGULATING KILLER ACQUISITIONS IN INDIA**](HTTPS://WEB.ARCHIVE.ORG/WEB/20230111061136/HTTPS:/JINDALDIGEST.WEEBLY.COM/BLOG/REGULATING-KILLER-ACQUISITIONS-IN-INDIA)
-
-11/1/2023
-
+﻿--
+layout: post
+title:  "Regualting Killer Acquisitions in India"
+date:   11-01-2023
+categories: [Tech, News-Reels]
+featured: true
+image: https://unsplash.it/1200/800?image=1065
+---
+**REPORT TITLE**
 
 
 **By Sanath Rajesh**
