@@ -1,4 +1,13 @@
-﻿***By the JDCIL Editorial Team***
+---
+layout: post
+title:  "The Need For A Sustainable Competition Policy"
+date:   2024-02-26 11:17:11 +0000
+categories: [Tech, Personal]
+featured: true
+image: https://pin.it/3PLLj86Sx 
+
+---
+***By the JDCIL Editorial Team***
 
 The Supreme Court of India has recognized privacy as fundamental right in India and an important aspect of personal freedom and autonomy. In order to provide an operative framework that lays down the privacy rights of Indian citizens, and the roles and responsibilities of companies that deal with data, the Indian government has been attempting to legislate a Personal Data Protection Bill. The Digital Personal Data Protection Bill (2022) ("DPDP") is the latest in a series of Bills put forth by the government for public consultation. 
 
