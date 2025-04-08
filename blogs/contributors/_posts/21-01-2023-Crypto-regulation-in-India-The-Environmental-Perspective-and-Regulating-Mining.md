@@ -1,7 +1,8 @@
 ﻿[**Crypto-regulation in India: The Environmental Perspective and Regulating Mining**](https://web.archive.org/web/20230606075011/https:/jindaldigest.weebly.com/blog/crypto-regulation-in-india-the-environmental-perspective-and-regulating-mining)
 layout: post
 21/1/2023
-
+categories: [Tech, Personal]
+image: https://www.vecteezy.com/photo/7950584-concept-save-the-world-save-environment-the-world-is-in-the-grass-of-the-green-bokeh-background
 
 
 **By Bhaskar Vishwajeet & Karan Kaul**
