@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "The Need For A Sustainable Competition Policy"
-date:   2024-02-26 11:17:11 +0000
+title:  "Report on the Digital Personal Data Protection Bill 2022"
+date:   2023-02-13
 categories: [Tech, Personal]
 featured: true
 image: https://pin.it/3PLLj86Sx 
