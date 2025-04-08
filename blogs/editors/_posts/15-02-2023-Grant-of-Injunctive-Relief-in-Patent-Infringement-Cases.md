@@ -1,4 +1,12 @@
-﻿[**Grant of Injunctive Relief in Patent Infringement Cases: A Comparative Analysis**](https://web.archive.org/web/20230606074932/https:/jindaldigest.weebly.com/blog-781581/grant-of-injunctive-relief-in-patent-infringement-cases-a-comparative-analysis)
+---
+layout: post
+title:  "Grant of Injunctive Relief in Patent Infringement Cases: A Comparative Analysi"
+date:   2023-02-15 11:17:11 +0000
+categories: [Tech, Personal]
+featured: true
+image: https://pin.it/3PLLj86Sx 
+
+---﻿[**Grant of Injunctive Relief in Patent Infringement Cases: A Comparative Analysis**](https://web.archive.org/web/20230606074932/https:/jindaldigest.weebly.com/blog-781581/grant-of-injunctive-relief-in-patent-infringement-cases-a-comparative-analysis)
 
 **By Nivrithi Kailash**
 
