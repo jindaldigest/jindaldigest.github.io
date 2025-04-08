@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Grant of Injunctive Relief in Patent Infringement Cases: A Comparative Analysi"
+title:  "Grant of Injunctive Relief in Patent Infringement Cases: A Comparative Analysis"
 date:   2023-02-15 11:17:11 +0000
 categories: [Tech, Personal]
 featured: true
