@@ -1,7 +1,10 @@
-﻿[**DEAL VALUE THRESHOLD AND ITS IMPACT ON INDIA**](HTTPS://WEB.ARCHIVE.ORG/WEB/20230105081635/HTTPS:/JINDALDIGEST.WEEBLY.COM/BLOG/DEAL-VALUE-THRESHOLD-AND-ITS-IMPACT-ON-INDIA)
-
-4/1/2023
-
+---
+layout: post
+title:  "Deal Value Threshold and its' impact on India"
+date:   2023-02-21 10:00:00 +0000
+categories: [Tech, Personal]
+image: https://unsplash.it/1200/800?image=1059
+---
 **By Vedanti Singhal**
 
 ![Picture](Aspose.Words.0ccbebc9-b999-4bb0-8896-91a8dac8ebd4.001.jpeg)
