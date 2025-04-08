@@ -1,5 +1,5 @@
 ﻿[**Crypto-regulation in India: The Environmental Perspective and Regulating Mining**](https://web.archive.org/web/20230606075011/https:/jindaldigest.weebly.com/blog/crypto-regulation-in-india-the-environmental-perspective-and-regulating-mining)
-
+layout: post
 21/1/2023
 
 
