@@ -1,4 +1,12 @@
-﻿[**Revisiting the Origins of Competition Law in the Digital Age**](https://web.archive.org/web/20220327142854/https:/jindaldigest.weebly.com/blog-781581/revisiting-the-origins-of-competition-law-in-the-digital-age)
+---
+layout: post
+title:  "Revisiting the Origins of Competition Law in the Digital Age"
+date:   2022-02-23 11:17:11 +0000
+categories: [Tech, Personal]
+featured: true
+image: https://pin.it/3PLLj86Sx 
+
+---﻿[**Revisiting the Origins of Competition Law in the Digital Age**](https://web.archive.org/web/20220327142854/https:/jindaldigest.weebly.com/blog-781581/revisiting-the-origins-of-competition-law-in-the-digital-age)
 
 23/3/2022
 
