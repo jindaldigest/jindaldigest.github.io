@@ -1,0 +1,60 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages -%}
+    <div class="site-title"><a href="/">{{ site.title | escape }}</a></div>
+  </div>
+
+</header>
+
+{%- if page_paths -%}
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <img src="/assets/hamburger.png" class="hamburger" alt="">
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: center;">
+      <ul class="navbar-nav">
+        {%- for page_path in site.header_pages -%}
+          {%- assign my_page = site.pages | where: "path", page_path | first -%}
+          {%- if my_page and my_page.title -%}
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+
+        <!-- BLOGS DROPDOWN -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            BLOGS
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/blogs/contributors/">FROM OUR CONTRIBUTORS</a></li>
+            <li><a class="dropdown-item" href="/blogs/editors/">FROM OUR EDITORS</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+{%- endif -%}
+
+<script>
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggleLink = document.querySelector('.navbar-toggler');
+    const targetElement = document.querySelector('.post-list-heading');
+
+    toggleLink.addEventListener('click', (event) => {
+      event.preventDefault(); // Prevent the default link behavior
+      if (event.delegateTarget.classList.contains('collapsed')) {
+        targetElement.style.marginTop = "330px"
+      } else {
+        targetElement.style.marginTop = "95px"
+      }
+    });
+  });
+</script>

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /blogs/
+Allow: /news-reels/
+Allow: /about-us/
+Allow: /contact-us/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /assets/
+Sitemap: https://jindaldigest.github.io/sitemap.xml 
