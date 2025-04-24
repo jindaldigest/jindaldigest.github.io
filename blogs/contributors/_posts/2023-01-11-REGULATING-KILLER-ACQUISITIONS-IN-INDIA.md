@@ -1,7 +1,7 @@
 ﻿--
 layout: post
 title:  "Regualting Killer Acquisitions in India"
-date:   11-01-2023
+date:   2023-01-11
 categories: [Tech, News-Reels]
 featured: true
 image: https://unsplash.it/1200/800?image=1065
